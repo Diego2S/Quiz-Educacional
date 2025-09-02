@@ -1,0 +1,90 @@
+/* Fundo com mix de vermelho e azul, sem sobreposição */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000080 50%, #8B0000 50%);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal */
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* deixa o degradê do body visível atrás */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+/* Título */
+h1 {
+    color: #FFD700; /* amarelo sólido */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Cards de pergunta */
+.card {
+    background-color: #000080; /* azul sólido */
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    border: 2px solid #FFD700; /* destaque amarelo */
+}
+
+/* Botões de opções */
+.opcao {
+    display: block;
+    background-color: #8B0000; /* vermelho sólido */
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.opcao:hover {
+    background-color: #FF0000; /* vermelho vivo */
+}
+
+/* Input para respostas discursivas */
+input[type="text"] {
+    padding: 12px;
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 2px solid #FF0000;
+    font-size: 1rem;
+}
+
+/* Botões genéricos (Próxima, Confirmar) */
+button {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #FF0000; /* vermelho sólido */
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #CC0000; /* vermelho escuro no hover */
+}
+
+/* Timer */
+#timer {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #FFD700; /* amarelo sólido */
+}

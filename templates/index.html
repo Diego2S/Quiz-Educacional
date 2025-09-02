@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Show do Milhão - Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>👩🏻‍🏫 Show da Ju 🧮</h1>
+
+        <div id="menu-tema">
+            <h2>Selecione o tema das perguntas</h2>
+            <div id="temas"></div>
+            <button id="iniciar-btn" style="display:none;">Iniciar Quiz</button>
+        </div>
+
+        <div id="quiz-container" style="display:none;"></div>
+        <button id="next-btn" style="display:none;">Próxima Pergunta</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

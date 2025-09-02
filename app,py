@@ -1,0 +1,19 @@
+from flask import Flask, jsonify, render_template
+import json
+
+app = Flask(__name__)
+
+# Rota principal para servir o frontend
+@app.route("/")
+def index():
+    return render_template("index.html")
+
+# API para fornecer as perguntas
+@app.route("/api/questions")
+def get_questions():
+    with open("questions.json", "r", encoding="utf-8") as f:
+        questions = json.load(f)
+    return jsonify(questions)
+
+if __name__ == "__main__":
+    app.run(debug=True, port=5000)

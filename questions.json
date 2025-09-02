@@ -1,0 +1,112 @@
+[
+  {
+    "tema": "Porcentagem",
+    "formulacao": "Um produto custa R$200 e está com 25% de desconto. Qual será o preço final?",
+    "tipo": "multipla_escolha",
+    "opcoes": {
+      "A": "R$150",
+      "B": "R$160",
+      "C": "R$175",
+      "D": "R$180"
+    },
+    "resposta_correta": "B",
+    "comentario": "25% de 200 é 50. 200 - 50 = 150.",
+    "time": 60
+  },
+  {
+    "tema": "Porcentagem",
+    "formulacao": "Se um salário de R$1200 foi aumentado em 10%, qual é o novo valor?",
+    "tipo": "multipla_escolha",
+    "opcoes": {
+      "A": "R$1300",
+      "B": "R$1320",
+      "C": "R$1350",
+      "D": "R$1400"
+    },
+    "resposta_correta": "B",
+    "comentario": "10% de 1200 é 120. O salário passa a ser 1320.",
+    "time": 90
+  },
+  {
+    "tema": "Porcentagem",
+    "formulacao": "Em uma prova com 80 questões, João acertou 60. Qual foi o percentual de acertos?",
+    "tipo": "multipla_escolha",
+    "opcoes": {
+      "A": "65%",
+      "B": "70%",
+      "C": "75%",
+      "D": "80%"
+    },
+    "resposta_correta": "C",
+    "comentario": "60 ÷ 80 = 0,75, ou seja, 75%.",
+    "time": 75
+  },
+  {
+    "tema": "Porcentagem",
+    "formulacao": "Um valor de R$500 foi reduzido para R$400. Qual foi a porcentagem de desconto?",
+    "tipo": "multipla_escolha",
+    "opcoes": {
+      "A": "15%",
+      "B": "18%",
+      "C": "20%",
+      "D": "25%"
+    },
+    "resposta_correta": "C",
+    "comentario": "Desconto = 100/500 = 20%.",
+    "time": 60
+  },
+  {
+    "tema": "Porcentagem",
+    "formulacao": "Maria investiu R$2000 e obteve um rendimento de 8% ao mês. Quanto ela terá ao final de 1 mês?",
+    "tipo": "multipla_escolha",
+    "opcoes": {
+      "A": "R$2080",
+      "B": "R$2160",
+      "C": "R$2200",
+      "D": "R$2400"
+    },
+    "resposta_correta": "A",
+    "comentario": "8% de 2000 é 160. Total = 2000 + 160 = 2160.",
+    "time": 120
+  },
+  {
+    "tema": "Sistemas",
+    "formulacao": "Resolva o sistema: 2x + y = 10 e x - y = 2.",
+    "tipo": "discursiva",
+    "resposta_correta": "x=4, y=2",
+    "comentario": "Da segunda equação: x = y+2. Substituindo: 2(y+2)+y=10 → 3y+4=10 → y=2, x=4.",
+    "time": 120
+  },
+  {
+    "tema": "Sistemas",
+    "formulacao": "Resolva o sistema: 3x + 2y = 12 e x - y = 1.",
+    "tipo": "discursiva",
+    "resposta_correta": "x=2.8, y=1.8",
+    "comentario": "Da segunda: x = y+1. Substituindo: 3(y+1)+2y=12 → 5y+3=12 → y=1.8, x=2.8.",
+    "time": 150
+  },
+  {
+    "tema": "Sistemas",
+    "formulacao": "Resolva o sistema: x + y = 7 e x - y = 3.",
+    "tipo": "discursiva",
+    "resposta_correta": "x=5, y=2",
+    "comentario": "Somando as duas equações: 2x=10 → x=5. Substituindo: y=2.",
+    "time": 90
+  },
+  {
+    "tema": "Sistemas",
+    "formulacao": "Resolva o sistema: 4x + 2y = 20 e 2x + y = 10.",
+    "tipo": "discursiva",
+    "resposta_correta": "Sistema indeterminado",
+    "comentario": "A segunda equação é múltiplo da primeira, logo o sistema é indeterminado.",
+    "time": 60
+  },
+  {
+    "tema": "Sistemas",
+    "formulacao": "Resolva o sistema: x + 2y = 8 e 3x - y = 7.",
+    "tipo": "discursiva",
+    "resposta_correta": "x=3, y=2.5",
+    "comentario": "Da primeira: x=8-2y. Substituindo: 3(8-2y)-y=7 → 24-6y-y=7 → y=2.5, x=3.",
+    "time": 120
+  }
+]
